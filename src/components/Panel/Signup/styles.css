@@ -1,0 +1,56 @@
+.input-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    text-align: left;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid transparent;
+    width: 25vh;
+    height: 3vh;
+    background-color: #333333;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.submit{
+    margin-top: 2vh;
+    border: 4px solid transparent;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 10px 20px;
+    margin-bottom: 2vh;
+    background-color: rgb(36, 22, 238);
+    color: white;
+    cursor: pointer;
+}
+
+.submit:hover{
+    border-radius: 5px;
+    animation: buton 1s infinite;
+    animation-timing-function: linear;
+    
+animation-fill-mode: backwards;
+                
+}
+
+@keyframes buton {
+    0%  { border-left-color: #0f0958 ;    }
+    33%  { border-top-color: #0f0958 ;  }
+    65%  { border-right-color: #0f0958 ;  }
+    100% { border-bottom-color: #0f0958 ; }
+    
+    
+}
+
+.baslik{
+    margin-top: 1vh;
+    text-shadow: 10px 5px 3px rgba(0, 20, 75, 0.5);
+    color: rgb(36, 22, 238);
+    letter-spacing: 3px;
+}
+
+.error{
+    color: red;
+}
