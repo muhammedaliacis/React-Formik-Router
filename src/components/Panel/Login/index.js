@@ -12,7 +12,7 @@ function Login() {
 
   },
     onSubmit : (values) => {
-      console.log(values);
+      alert("Success Login " + values.email);
     },
   validationSchema: Validation
 

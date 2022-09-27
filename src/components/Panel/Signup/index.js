@@ -11,7 +11,7 @@ function Signup() {
         password: ""
     },
     onSubmit : (values) => {
-        console.log(values)
+        alert("Welcome " + values.email);
     },
     validationSchema : Validation2
 });
