@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Formik&Router/static/css/main.910040ec.css",
+    "main.js": "/React-Formik&Router/static/js/main.11f8a8fd.js",
+    "static/js/787.83fdf458.chunk.js": "/React-Formik&Router/static/js/787.83fdf458.chunk.js",
+    "index.html": "/React-Formik&Router/index.html",
+    "main.910040ec.css.map": "/React-Formik&Router/static/css/main.910040ec.css.map",
+    "main.11f8a8fd.js.map": "/React-Formik&Router/static/js/main.11f8a8fd.js.map",
+    "787.83fdf458.chunk.js.map": "/React-Formik&Router/static/js/787.83fdf458.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.910040ec.css",
+    "static/js/main.11f8a8fd.js"
+  ]
+}
